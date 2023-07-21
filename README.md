@@ -13,7 +13,7 @@
   - NVM (Node Version Manager) is a tool that lets developers manage multiple version of Node.js on the same machine, allowing us to easily switch between different Node.js environments for our projects.
 ### **.nvmrc**
   - .nvmrc - a configuration file which is used with NVM, allowing us to specify a particular version of node within the project. With this file being present in the project directory, we can easily allow developers to switch between node versions, project to project.
-### **Installing dependencies, switching Node version & running tests**
+### **Installing dependencies & switching Node version**
 #### Node commands
   - ```npm install <package_name>``` (or ```npm i <package_name>```) - This will fetch and install the ```<package_name>``` specified. 
     - Use the flag ```--save-dev``` to install a development specific dependency (most common with testing libraries).
