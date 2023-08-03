@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main, 'dependabot/*' ]
+    branches: [ 'dependabot/*' ]
   pull_request:
-    branches: [ main, 'dependabot/*' ]
+    branches: [ 'dependabot/*' ]
 
 jobs:
   test:
